@@ -1506,6 +1506,40 @@
                  "width":172,
                  "x":1535,
                  "y":957
+                }, 
+                {
+                 "height":94,
+                 "id":3,
+                 "name":"to-office1",
+                 "properties":[
+                        {
+                         "name":"exitUrl",
+                         "type":"string",
+                         "value":"office1.tmj"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":89,
+                 "x":75,
+                 "y":1598
+                }, 
+                {
+                 "height":44,
+                 "id":4,
+                 "name":"from-office1",
+                 "properties":[
+                        {
+                         "name":"start",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":110,
+                 "x":89,
+                 "y":1722
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1958,7 +1992,7 @@
          "y":0
         }],
  "nextlayerid":32,
- "nextobjectid":3,
+ "nextobjectid":5,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.11.0",

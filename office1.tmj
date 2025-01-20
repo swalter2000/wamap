@@ -163,8 +163,8 @@
                     0, 0, 0, 0, 0, 0, 477, 685, 0, 0, 685, 685, 685, 685, 685, 685, 685, 685, 685, 685, 685, 685, 685, 685, 685, 685, 685, 685, 685, 685, 685,
                     0, 0, 0, 0, 0, 0, 477, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     433, 479, 479, 479, 479, 479, 429, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    685, 685, 685, 685, 685, 685, 685, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    685, 685, 685, 685, 685, 685, 685, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                    685, 685, 685, 685, 685, 685, 685, 0, 0, 1335, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    685, 685, 685, 685, 685, 685, 685, 0, 0, 1360, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                  "height":21,
                  "id":9,
                  "name":"walls1",
@@ -339,7 +339,7 @@
                 {
                  "height":128,
                  "id":13,
-                 "name":"jitsiChillZone",
+                 "name":"jitsiChillZone1",
                  "properties":[
                         {
                          "name":"focusable",
@@ -349,7 +349,7 @@
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"ChillZone"
+                         "value":"ChillZone1"
                         }, 
                         {
                          "name":"jitsiTrigger",
@@ -388,7 +388,7 @@
                 {
                  "height":372.279681239026,
                  "id":16,
-                 "name":"jitsiMeetingRoom",
+                 "name":"jitsiMeetingRoom1",
                  "properties":[
                         {
                          "name":"focusable",
@@ -398,7 +398,7 @@
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"MeetingRoom"
+                         "value":"MeetingRoom1"
                         }, 
                         {
                          "name":"jitsiTrigger",
@@ -431,12 +431,12 @@
                 {
                  "height":64,
                  "id":18,
-                 "name":"to-conference",
+                 "name":"to-conference1",
                  "properties":[
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"conference.tmj#from-office"
+                         "value":"conference1.tmj#from-office1"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -448,7 +448,7 @@
                 {
                  "height":32,
                  "id":19,
-                 "name":"from-conference",
+                 "name":"from-conference1",
                  "properties":[
                         {
                          "name":"start",
@@ -461,6 +461,40 @@
                  "width":32,
                  "x":64,
                  "y":544
+                }, 
+                {
+                 "height":81.1288100490748,
+                 "id":21,
+                 "name":"from-outside",
+                 "properties":[
+                        {
+                         "name":"start",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":68.6232947638557,
+                 "x":254.655080815812,
+                 "y":460.996083021926
+                }, 
+                {
+                 "height":65.7865021836027,
+                 "id":22,
+                 "name":"to-outside",
+                 "properties":[
+                        {
+                         "name":"exitUrl",
+                         "type":"string",
+                         "value":"MainExterior2.tmj#from-office1"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":97.2073297014993,
+                 "x":257.334834091216,
+                 "y":607.567781729774
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -543,7 +577,7 @@
          "y":0
         }],
  "nextlayerid":63,
- "nextobjectid":21,
+ "nextobjectid":23,
  "orientation":"orthogonal",
  "properties":[
         {

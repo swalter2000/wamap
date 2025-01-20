@@ -265,12 +265,12 @@
                 {
                  "height":320,
                  "id":18,
-                 "name":"jitsiConference",
+                 "name":"jitsiConference1",
                  "properties":[
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"Conference"
+                         "value":"Conference1"
                         }, 
                         {
                          "name":"jitsiTrigger",
@@ -319,12 +319,12 @@
                 {
                  "height":96,
                  "id":22,
-                 "name":"to-office",
+                 "name":"to-office1",
                  "properties":[
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"office.tmj#from-conference"
+                         "value":"office1.tmj#from-conference1"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -336,7 +336,7 @@
                 {
                  "height":32,
                  "id":23,
-                 "name":"from-office",
+                 "name":"from-office1",
                  "properties":[
                         {
                          "name":"start",
