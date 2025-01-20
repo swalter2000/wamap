@@ -130195,7 +130195,44 @@
     },
     {
       "name": "floorLayer",
-      "objects": [],
+      "objects": [
+        {
+          "id": 1,
+          "name": "to-office",
+          "visible": true,
+          "x": 1517,
+          "y": 712,
+          "height": 179,
+          "properties": [
+            {
+              "name": "exitUrl",
+              "type": "string",
+              "value": "officemain.tmj#from-outside"
+            }
+          ],
+          "rotation": 0,
+          "type": "area",
+          "width": 199
+        },
+        {
+          "id": 2,
+          "name": "from-office",
+          "visible": true,
+          "x": 1535,
+          "y": 957,
+          "height": 82,
+          "properties": [
+            {
+              "name": "start",
+              "type": "bool",
+              "value": true
+            }
+          ],
+          "rotation": 0,
+          "type": "area",
+          "width": 172
+        }
+      ],
       "opacity": 1,
       "type": "objectgroup",
       "visible": true,
@@ -170257,12 +170294,12 @@
       "y": 0
     }
   ],
-  "tiledversion": "1.11.1",
+  "tiledversion": "1.11.0",
   "tilesets": [
     {
       "columns": 16,
       "firstgid": 1,
-      "image": "MainExterior2-chunk-1-3e9a466b.png",
+      "image": "MainExterior2-chunk-1-328ce579.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -172974,7 +173011,7 @@
     {
       "columns": 16,
       "firstgid": 257,
-      "image": "MainExterior2-chunk-2-3e9a466b.png",
+      "image": "MainExterior2-chunk-2-328ce579.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -175133,7 +175170,7 @@
     {
       "columns": 16,
       "firstgid": 513,
-      "image": "MainExterior2-chunk-3-3e9a466b.png",
+      "image": "MainExterior2-chunk-3-328ce579.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -178329,7 +178366,7 @@
     {
       "columns": 16,
       "firstgid": 769,
-      "image": "MainExterior2-chunk-4-3e9a466b.png",
+      "image": "MainExterior2-chunk-4-328ce579.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -181625,7 +181662,7 @@
     {
       "columns": 16,
       "firstgid": 1025,
-      "image": "MainExterior2-chunk-5-3e9a466b.png",
+      "image": "MainExterior2-chunk-5-328ce579.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -186721,7 +186758,7 @@
     {
       "columns": 16,
       "firstgid": 1281,
-      "image": "MainExterior2-chunk-6-3e9a466b.png",
+      "image": "MainExterior2-chunk-6-328ce579.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -191757,7 +191794,7 @@
     {
       "columns": 16,
       "firstgid": 1537,
-      "image": "MainExterior2-chunk-7-3e9a466b.png",
+      "image": "MainExterior2-chunk-7-328ce579.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -196353,7 +196390,7 @@
     {
       "columns": 16,
       "firstgid": 1793,
-      "image": "MainExterior2-chunk-8-3e9a466b.png",
+      "image": "MainExterior2-chunk-8-328ce579.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -198969,7 +199006,7 @@
     {
       "columns": 16,
       "firstgid": 2049,
-      "image": "MainExterior2-chunk-9-3e9a466b.png",
+      "image": "MainExterior2-chunk-9-328ce579.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -202765,7 +202802,7 @@
     {
       "columns": 16,
       "firstgid": 2305,
-      "image": "MainExterior2-chunk-10-3e9a466b.png",
+      "image": "MainExterior2-chunk-10-328ce579.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -206941,7 +206978,7 @@
     {
       "columns": 6,
       "firstgid": 2561,
-      "image": "MainExterior2-chunk-11-3e9a466b.png",
+      "image": "MainExterior2-chunk-11-328ce579.png",
       "imageheight": 192,
       "imagewidth": 192,
       "margin": 0,
@@ -207000,7 +207037,7 @@
   "height": 100,
   "infinite": false,
   "nextlayerid": 32,
-  "nextobjectid": 1,
+  "nextobjectid": 3,
   "orientation": "orthogonal",
   "renderorder": "right-down",
   "tileheight": 32,

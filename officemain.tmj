@@ -84184,7 +84184,95 @@
     },
     {
       "name": "floorLayer",
-      "objects": [],
+      "objects": [
+        {
+          "id": 1,
+          "name": "from-outside",
+          "visible": true,
+          "x": 1502.52685606231,
+          "y": 1194.2111566341,
+          "height": 121.325109180136,
+          "properties": [
+            {
+              "name": "start",
+              "type": "bool",
+              "value": true
+            }
+          ],
+          "rotation": 0,
+          "type": "area",
+          "width": 158.784025933096
+        },
+        {
+          "id": 2,
+          "name": "to-outside",
+          "visible": true,
+          "x": 1456.42357390482,
+          "y": 1806.3683760299,
+          "height": 110.10328215749,
+          "properties": [
+            {
+              "name": "exitUrl",
+              "type": "string",
+              "value": "MainExterior2.tmj#from-office"
+            }
+          ],
+          "rotation": 0,
+          "type": "area",
+          "width": 268.279321057134
+        },
+        {
+          "id": 3,
+          "name": "jitsiWestMeet",
+          "visible": true,
+          "x": 16.3767502588806,
+          "y": 85.835667011841,
+          "height": 712.935392373148,
+          "properties": [
+            {
+              "name": "focusable",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "name": "jitsiRoom",
+              "type": "string",
+              "value": "WestMeetRoom"
+            },
+            {
+              "name": "jitsiTrigger",
+              "type": "string",
+              "value": "onaction"
+            },
+            {
+              "name": "zoom_margin",
+              "type": "float",
+              "value": 1
+            }
+          ],
+          "rotation": 0,
+          "type": "area",
+          "width": 413.872045382918
+        },
+        {
+          "id": 4,
+          "name": "silentZone",
+          "visible": true,
+          "x": 14.7840259330962,
+          "y": 1163.49988744316,
+          "height": 661.069199945973,
+          "properties": [
+            {
+              "name": "silent",
+              "type": "bool",
+              "value": true
+            }
+          ],
+          "rotation": 0,
+          "type": "area",
+          "width": 313.325109180136
+        }
+      ],
       "opacity": 1,
       "type": "objectgroup",
       "visible": true,
@@ -102233,12 +102321,12 @@
       "y": 0
     }
   ],
-  "tiledversion": "1.11.1",
+  "tiledversion": "1.11.0",
   "tilesets": [
     {
       "columns": 16,
       "firstgid": 1,
-      "image": "officemain-chunk-1-a839227e.png",
+      "image": "officemain-chunk-1-6f8a0845.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -103429,7 +103517,7 @@
     {
       "columns": 9,
       "firstgid": 257,
-      "image": "officemain-chunk-2-a839227e.png",
+      "image": "officemain-chunk-2-6f8a0845.png",
       "imageheight": 288,
       "imagewidth": 288,
       "margin": 0,
@@ -103547,8 +103635,8 @@
   "compressionlevel": -1,
   "height": 60,
   "infinite": false,
-  "nextlayerid": 35,
-  "nextobjectid": 1,
+  "nextlayerid": 36,
+  "nextobjectid": 5,
   "orientation": "orthogonal",
   "renderorder": "right-down",
   "tileheight": 32,
