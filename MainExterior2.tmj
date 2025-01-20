@@ -130267,6 +130267,42 @@
           "rotation": 0,
           "type": "area",
           "width": 110
+        },
+        {
+          "id": 5,
+          "name": "to-office1",
+          "visible": true,
+          "x": 676.5,
+          "y": 1591,
+          "height": 105,
+          "properties": [
+            {
+              "name": "exitUrl",
+              "type": "string",
+              "value": "office2.tmj"
+            }
+          ],
+          "rotation": 0,
+          "type": "area",
+          "width": 96
+        },
+        {
+          "id": 6,
+          "name": "from-office2",
+          "visible": true,
+          "x": 696,
+          "y": 1723,
+          "height": 44,
+          "properties": [
+            {
+              "name": "start",
+              "type": "bool",
+              "value": true
+            }
+          ],
+          "rotation": 0,
+          "type": "area",
+          "width": 110
         }
       ],
       "opacity": 1,
@@ -170335,7 +170371,7 @@
     {
       "columns": 16,
       "firstgid": 1,
-      "image": "MainExterior2-chunk-1-b75d0e76.png",
+      "image": "MainExterior2-chunk-1-245a8cad.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -173047,7 +173083,7 @@
     {
       "columns": 16,
       "firstgid": 257,
-      "image": "MainExterior2-chunk-2-b75d0e76.png",
+      "image": "MainExterior2-chunk-2-245a8cad.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -175206,7 +175242,7 @@
     {
       "columns": 16,
       "firstgid": 513,
-      "image": "MainExterior2-chunk-3-b75d0e76.png",
+      "image": "MainExterior2-chunk-3-245a8cad.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -178402,7 +178438,7 @@
     {
       "columns": 16,
       "firstgid": 769,
-      "image": "MainExterior2-chunk-4-b75d0e76.png",
+      "image": "MainExterior2-chunk-4-245a8cad.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -181698,7 +181734,7 @@
     {
       "columns": 16,
       "firstgid": 1025,
-      "image": "MainExterior2-chunk-5-b75d0e76.png",
+      "image": "MainExterior2-chunk-5-245a8cad.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -186794,7 +186830,7 @@
     {
       "columns": 16,
       "firstgid": 1281,
-      "image": "MainExterior2-chunk-6-b75d0e76.png",
+      "image": "MainExterior2-chunk-6-245a8cad.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -191830,7 +191866,7 @@
     {
       "columns": 16,
       "firstgid": 1537,
-      "image": "MainExterior2-chunk-7-b75d0e76.png",
+      "image": "MainExterior2-chunk-7-245a8cad.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -196426,7 +196462,7 @@
     {
       "columns": 16,
       "firstgid": 1793,
-      "image": "MainExterior2-chunk-8-b75d0e76.png",
+      "image": "MainExterior2-chunk-8-245a8cad.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -199042,7 +199078,7 @@
     {
       "columns": 16,
       "firstgid": 2049,
-      "image": "MainExterior2-chunk-9-b75d0e76.png",
+      "image": "MainExterior2-chunk-9-245a8cad.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -202838,7 +202874,7 @@
     {
       "columns": 16,
       "firstgid": 2305,
-      "image": "MainExterior2-chunk-10-b75d0e76.png",
+      "image": "MainExterior2-chunk-10-245a8cad.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -207014,7 +207050,7 @@
     {
       "columns": 6,
       "firstgid": 2561,
-      "image": "MainExterior2-chunk-11-b75d0e76.png",
+      "image": "MainExterior2-chunk-11-245a8cad.png",
       "imageheight": 192,
       "imagewidth": 192,
       "margin": 0,
@@ -207073,7 +207109,7 @@
   "height": 100,
   "infinite": false,
   "nextlayerid": 32,
-  "nextobjectid": 5,
+  "nextobjectid": 7,
   "orientation": "orthogonal",
   "renderorder": "right-down",
   "tileheight": 32,
