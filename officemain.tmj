@@ -1001,7 +1001,90 @@
          "draworder":"topdown",
          "id":3,
          "name":"floorLayer",
-         "objects":[],
+         "objects":[
+                {
+                 "height":121.325109180136,
+                 "id":1,
+                 "name":"from-outside",
+                 "properties":[
+                        {
+                         "name":"start",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":158.784025933096,
+                 "x":1502.52685606231,
+                 "y":1194.2111566341
+                }, 
+                {
+                 "height":110.10328215749,
+                 "id":2,
+                 "name":"to-outside",
+                 "properties":[
+                        {
+                         "name":"exitUrl",
+                         "type":"string",
+                         "value":"MainExterior2.tmj#from-office"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":268.279321057134,
+                 "x":1456.42357390482,
+                 "y":1806.3683760299
+                }, 
+                {
+                 "height":712.935392373148,
+                 "id":3,
+                 "name":"jitsiWestMeet",
+                 "properties":[
+                        {
+                         "name":"focusable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"WestMeetRoom"
+                        }, 
+                        {
+                         "name":"jitsiTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"zoom_margin",
+                         "type":"float",
+                         "value":1
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":413.872045382918,
+                 "x":16.3767502588806,
+                 "y":85.835667011841
+                }, 
+                {
+                 "height":661.069199945973,
+                 "id":4,
+                 "name":"silentZone",
+                 "properties":[
+                        {
+                         "name":"silent",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":313.325109180136,
+                 "x":14.7840259330962,
+                 "y":1163.49988744316
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -1221,11 +1304,11 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":35,
- "nextobjectid":1,
+ "nextlayerid":36,
+ "nextobjectid":5,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.11.1",
+ "tiledversion":"1.11.0",
  "tileheight":32,
  "tilesets":[
         {

@@ -1472,7 +1472,41 @@
          "draworder":"topdown",
          "id":26,
          "name":"floorLayer",
-         "objects":[],
+         "objects":[
+                {
+                 "height":179,
+                 "id":1,
+                 "name":"to-office",
+                 "properties":[
+                        {
+                         "name":"exitUrl",
+                         "type":"string",
+                         "value":"officemain.tmj#from-outside"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":199,
+                 "x":1517,
+                 "y":712
+                }, 
+                {
+                 "height":82,
+                 "id":2,
+                 "name":"from-office",
+                 "properties":[
+                        {
+                         "name":"start",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":172,
+                 "x":1535,
+                 "y":957
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -1924,10 +1958,10 @@
          "y":0
         }],
  "nextlayerid":32,
- "nextobjectid":1,
+ "nextobjectid":3,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.11.1",
+ "tiledversion":"1.11.0",
  "tileheight":32,
  "tilesets":[
         {
