@@ -102405,7 +102405,7 @@
     {
       "columns": 16,
       "firstgid": 1,
-      "image": "officemain-chunk-1-9efd0a67.png",
+      "image": "officemain-chunk-1-a58f75d2.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -103389,6 +103389,46 @@
           ]
         },
         {
+          "id": 222,
+          "properties": [
+            {
+              "name": "collides",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 222,
+          "properties": [
+            {
+              "name": "collides",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 223,
+          "properties": [
+            {
+              "name": "collides",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 223,
+          "properties": [
+            {
+              "name": "collides",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
           "id": 226,
           "properties": [
             {
@@ -103593,7 +103633,7 @@
     {
       "columns": 10,
       "firstgid": 257,
-      "image": "officemain-chunk-2-9efd0a67.png",
+      "image": "officemain-chunk-2-a58f75d2.png",
       "imageheight": 320,
       "imagewidth": 320,
       "margin": 0,
