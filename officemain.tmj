@@ -84233,8 +84233,8 @@
           "name": "jitsiWestMeet",
           "visible": true,
           "x": 16.3767502588806,
-          "y": 85.835667011841,
-          "height": 712.935392373148,
+          "y": 80,
+          "height": 580,
           "properties": [
             {
               "name": "focusable",
@@ -84254,7 +84254,7 @@
           ],
           "rotation": 0,
           "type": "area",
-          "width": 413.872045382918
+          "width": 405
         },
         {
           "id": 4,
@@ -102412,7 +102412,7 @@
     {
       "columns": 16,
       "firstgid": 1,
-      "image": "officemain-chunk-1-083ab68e.png",
+      "image": "officemain-chunk-1-cb194544.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -103640,7 +103640,7 @@
     {
       "columns": 10,
       "firstgid": 257,
-      "image": "officemain-chunk-2-083ab68e.png",
+      "image": "officemain-chunk-2-cb194544.png",
       "imageheight": 320,
       "imagewidth": 320,
       "margin": 0,
