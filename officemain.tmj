@@ -2956,6 +2956,24 @@
                          "type":"bool",
                          "value":true
                         }]
+                }, 
+                {
+                 "id":474,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":476,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
                 }],
          "tilewidth":32
         }, 
