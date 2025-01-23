@@ -84243,11 +84243,6 @@
               "name": "jitsiTrigger",
               "type": "string",
               "value": "onaction"
-            },
-            {
-              "name": "zoom_margin",
-              "type": "float",
-              "value": 1
             }
           ],
           "rotation": 0,
@@ -84299,6 +84294,62 @@
           "rotation": 0,
           "type": "area",
           "width": 200
+        },
+        {
+          "id": 6,
+          "name": "jitsiMainRoomBRight",
+          "visible": true,
+          "x": 1775,
+          "y": 590,
+          "height": 207,
+          "properties": [
+            {
+              "name": "focusable",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "name": "jitsiRoom",
+              "type": "string",
+              "value": "MainRoomBRight"
+            },
+            {
+              "name": "jitsiTrigger",
+              "type": "string",
+              "value": "onaction"
+            }
+          ],
+          "rotation": 0,
+          "type": "area",
+          "width": 200
+        },
+        {
+          "id": 7,
+          "name": "jitsiPersonalRoomMain1",
+          "visible": true,
+          "x": 1200,
+          "y": 100,
+          "height": 150,
+          "properties": [
+            {
+              "name": "focusable",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "name": "jitsiRoom",
+              "type": "string",
+              "value": "PersonalRoomMain1"
+            },
+            {
+              "name": "jitsiTrigger",
+              "type": "string",
+              "value": "onaction"
+            }
+          ],
+          "rotation": 0,
+          "type": "area",
+          "width": 150
         }
       ],
       "opacity": 1,
@@ -102354,7 +102405,7 @@
     {
       "columns": 16,
       "firstgid": 1,
-      "image": "officemain-chunk-1-bdcf4bd2.png",
+      "image": "officemain-chunk-1-d37540fe.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -103522,7 +103573,7 @@
     {
       "columns": 10,
       "firstgid": 257,
-      "image": "officemain-chunk-2-bdcf4bd2.png",
+      "image": "officemain-chunk-2-d37540fe.png",
       "imageheight": 320,
       "imagewidth": 320,
       "margin": 0,
@@ -103664,7 +103715,7 @@
   "height": 60,
   "infinite": false,
   "nextlayerid": 36,
-  "nextobjectid": 6,
+  "nextobjectid": 8,
   "orientation": "orthogonal",
   "renderorder": "right-down",
   "tileheight": 32,
