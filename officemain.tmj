@@ -12023,6 +12023,13 @@
       "type": "tilelayer",
       "visible": true,
       "width": 100,
+      "properties": [
+        {
+          "name": "collides",
+          "type": "bool",
+          "value": true
+        }
+      ],
       "x": 0,
       "y": 0
     },
@@ -102405,7 +102412,7 @@
     {
       "columns": 16,
       "firstgid": 1,
-      "image": "officemain-chunk-1-a58f75d2.png",
+      "image": "officemain-chunk-1-c13cac68.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -103633,7 +103640,7 @@
     {
       "columns": 10,
       "firstgid": 257,
-      "image": "officemain-chunk-2-a58f75d2.png",
+      "image": "officemain-chunk-2-c13cac68.png",
       "imageheight": 320,
       "imagewidth": 320,
       "margin": 0,
