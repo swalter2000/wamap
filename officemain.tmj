@@ -60788,7 +60788,7 @@
         190,
         190,
         190,
-        190,
+        0,
         190,
         190,
         190,
@@ -102412,7 +102412,7 @@
     {
       "columns": 16,
       "firstgid": 1,
-      "image": "officemain-chunk-1-c13cac68.png",
+      "image": "officemain-chunk-1-083ab68e.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -103640,7 +103640,7 @@
     {
       "columns": 10,
       "firstgid": 257,
-      "image": "officemain-chunk-2-c13cac68.png",
+      "image": "officemain-chunk-2-083ab68e.png",
       "imageheight": 320,
       "imagewidth": 320,
       "margin": 0,
