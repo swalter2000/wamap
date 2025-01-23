@@ -1055,11 +1055,6 @@
                          "name":"jitsiTrigger",
                          "type":"string",
                          "value":"onaction"
-                        }, 
-                        {
-                         "name":"zoom_margin",
-                         "type":"float",
-                         "value":1
                         }],
                  "rotation":0,
                  "type":"area",
@@ -1111,6 +1106,60 @@
                  "width":200,
                  "x":1200,
                  "y":590
+                }, 
+                {
+                 "height":207,
+                 "id":6,
+                 "name":"jitsiMainRoomBRight",
+                 "properties":[
+                        {
+                         "name":"focusable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"MainRoomBRight"
+                        }, 
+                        {
+                         "name":"jitsiTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":200,
+                 "x":1775,
+                 "y":590
+                }, 
+                {
+                 "height":150,
+                 "id":7,
+                 "name":"jitsiPersonalRoomMain1",
+                 "properties":[
+                        {
+                         "name":"focusable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"PersonalRoomMain1"
+                        }, 
+                        {
+                         "name":"jitsiTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":150,
+                 "x":1200,
+                 "y":100
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1332,7 +1381,7 @@
          "y":0
         }],
  "nextlayerid":36,
- "nextobjectid":6,
+ "nextobjectid":8,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.11.0",
